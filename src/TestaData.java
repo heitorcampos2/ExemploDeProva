@@ -5,7 +5,7 @@ public class TestaData {
         d.mes = "04";
         d.ano = "2019";
         
-        d.mostrar();
+        d.mostrarData();
         
         
     }

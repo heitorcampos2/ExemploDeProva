@@ -3,11 +3,11 @@ public class Requerimento {
     Aluno aluno;
     String tipo;
     String descricao;
-    Data data;
+    Data data1;
     
-    void mostra(){
+    void mostraReq(){
         aluno.mostrarAluno();
-        data.mostrar();
+        System.out.println("Descrição: "+descricao);
     }
     
     void informarTipo(String a){

@@ -3,7 +3,10 @@ public class Data {
     String mes;
     String ano;
     
-    void mostrar(){
-        System.out.println("Data: "+dia+"/"+mes+"/"+ano);
+    void mostrarData(){
+        System.out.println("Data: "+
+                dia+"/"+
+                mes+"/"+
+                ano);
     }
 }

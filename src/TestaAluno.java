@@ -5,13 +5,12 @@ public class TestaAluno {
         a.cpf = "123.123.123-12";
         a.rg = "MG-11.000.000";
         
-        a.mostrarAluno();
-                
-        Data a1 = new Data();
-        a1.dia = "29";
-        a1.mes = "04";
-        a1.ano = "2019";
+        a.dataDeNascimento = new Data();
+        a.dataDeNascimento.dia = "20";
+        a.dataDeNascimento.mes = "12";
+        a.dataDeNascimento.ano = "1995";
         
-        a1.mostrar();
+        a.mostrarAluno();
+        
     }
 }

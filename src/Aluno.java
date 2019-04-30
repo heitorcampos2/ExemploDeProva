@@ -8,6 +8,6 @@ public class Aluno {
         System.out.println("Nome: "+nome);
         System.out.println("cpf: "+cpf);
         System.out.println("RG: "+rg);
-        System.out.println("Data: "+dataDeNascimento);
+        dataDeNascimento.mostrarData();
     }
 }
